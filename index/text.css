@@ -21,6 +21,17 @@
 
 }
 
-.main p{
+.main > p{
     color: red;
+}
+
+.footer{
+    width: 100%;
+    background: #000000;
+    bottom: 0px;
+}
+
+.copyright{
+    color: white;
+    height: 70px;
 }
