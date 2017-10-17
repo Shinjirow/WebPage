@@ -1,47 +1,83 @@
 .header{
-    width: 100%;
+    width: 100vw;
     color: white;
     background: #000000;
 }
 
 .header-name{
     width: 100%;
-    font-size: 48px;
+    font-size: calc(112.5% + 1vw);
     margin-left: auto;
     margin-right: auto;
 }
 
-.menu{
-    width: 100%;
-    list-style: none;
-    overflow: hidden;
+.header-name h1{
+    text-align: center;
 }
-.menu-bar li{
-    float: left;
-    border-right: double 2px #CCCCCC;
+
+#menu {
+    width:100vw;
+    padding:0;
+    margin:0;
+    list-style-type: none;
 }
-.menu-bar li a{
-    display: block;
-    padding: 10px 15px;
+#menu li {
+    width:20%;
+    float:left;
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+#menu li a {
+    width:auto;
+    color:#fff;
+    font-size:12px;
+    font-weight:bold;
+    padding:10px 0;
+    text-decoration:none;
+    display:block;
+    background:#666;
+}
+#menu li a:hover {
+    background:#555;
+}
+.navi li{
+    list-style-type: none;
+}
+
+.navi li::before{
+    content: '>';
 }
 
 .main{
     position: fixed;
-    font-size: 32px;
-    font-style: italic;
+    font-size: 16px;
 }
 
-.main > p{
+.main h1{
+
+}
+
+
+.main h5{
+    font-style: italic;
     color: red;
+    font-size: 48px;
+}
+.main h6{
+    font-style: italic;
+    color: silver;
+    font-size: 48px;
 }
 
 .footer{
     width: 100%;
     background: #000000;
+    position: absolute;
     bottom: 0px;
 }
 
 .copyright{
     color: white;
-    height: 70px;
+    height: 30px;
 }
