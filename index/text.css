@@ -43,6 +43,7 @@
 }
 .navi li{
     list-style-type: none;
+    float: left;
 }
 
 .navi li::before{
