@@ -86,6 +86,10 @@ html body{
     bottom: 0px;
 }
 
+.footer p{
+    float: left;
+}
+
 .copyright{
     color: white;
     height: 30px;
