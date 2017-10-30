@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-html body{
-    overflow: scroll;
+body{
+    margin-bottom:100px;
 }
 
 .header{
@@ -79,10 +79,26 @@ html body{
     font-size: 48px;
 }
 
+.main table {
+    width: 500px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-top: 0;margin-bottom: 16px;
+}
+
+.main table td {
+    width: 250px;
+    padding: 6px 13px;
+    border: 1px solid #ddd;
+}
+.main table tr {
+    border-top: 1px solid #ccc;
+}
+
 .footer{
     width: 100%;
+    position: fixed;
     background: #000000;
-    position: absolute;
     bottom: 0px;
 }
 
